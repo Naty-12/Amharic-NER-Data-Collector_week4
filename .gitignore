@@ -1,0 +1,54 @@
+*.pyc
+__pycache__/
+
+# Ignore environment-specific settings (very important for API keys!)
+.env
+.env.*
+config.ini # If you use an INI file for config
+secrets.json # If you store secrets in JSON
+
+ethio_mart_env/
+# Common alternatives for venv names:
+downloads/
+venv/
+.venv/
+env/
+
+*.session
+*.session-journal # Telethon can create journal files during session updates
+
+data/
+
+# Log files
+*.log
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/ # If you use pytest
+nosetests.xml
+coverage.xml
+*.cover
+
+# IDE specific files (optional, but good practice)
+.idea/           # JetBrains IDEs (PyCharm, IntelliJ)
+.vscode/         # VS Code settings (if you don't want to share)
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# PyInstaller / other build tools (if you package your script into an executable)
+*.manifest
+*.spec
+build/
+dist/
