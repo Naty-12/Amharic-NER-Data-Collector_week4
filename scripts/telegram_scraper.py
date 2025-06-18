@@ -26,7 +26,7 @@ async def scrape_channel(client, channel_username, writer, media_dir):
         writer.writerow([channel_title, channel_username, message.id, message.message, message.date, media_path])
 
 # Initialize the client once
-client = TelegramClient('scraping_session', api_id, api_hash)
+client = TelegramClient('scraping_session', api_id=24064436, api_hash= 'fbf34c30d327bcb623fde48e6542014b')
 
 async def main():
     await client.start()
