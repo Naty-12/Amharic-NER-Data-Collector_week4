@@ -19,8 +19,11 @@ env/
 
 data/
 
+telegram_data.csv
+
 # Log files
 *.log
+
 
 # Installer logs
 pip-log.txt
