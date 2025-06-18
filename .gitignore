@@ -10,6 +10,9 @@ secrets.json # If you store secrets in JSON
 ethio_mart_env/
 # Common alternatives for venv names:
 downloads/
+
+photos/
+
 venv/
 .venv/
 env/
