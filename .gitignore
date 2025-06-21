@@ -14,6 +14,10 @@ venv/
 .venv/
 env/
 
+photos/
+
+*.jpg
+
 *.session
 *.session-journal # Telethon can create journal files during session updates
 
