@@ -63,4 +63,4 @@ Thumbs.db        # Windows
 build/
 dist/
 
-ner_mode/
+ner_model/
