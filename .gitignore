@@ -63,4 +63,8 @@ Thumbs.db        # Windows
 build/
 dist/
 
+<<<<<<< HEAD
 ner_model/
+=======
+ner_model/
+>>>>>>> task6
